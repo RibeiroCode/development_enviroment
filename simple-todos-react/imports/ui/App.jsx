@@ -10,6 +10,9 @@ const tasks = [
 export const App = () => (
   <div>
     <h1>Seja bem vindo(a)!</h1>
+    <ul>
+      { tasks.map(task => <Task key={ task._id } task={ task }/>) }
+    </ul>
     <Hello/>
     <Info/>
   </div>
