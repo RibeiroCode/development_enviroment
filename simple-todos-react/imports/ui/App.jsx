@@ -1,4 +1,5 @@
 import React from 'react';
+import { Task } from './Task';
 
 const tasks = [
   {_id: 1, text: 'Primeira Tarefa'},
@@ -8,7 +9,7 @@ const tasks = [
  
 export const App = () => (
   <div>
-    <h1>Seja bem vindo!</h1>
+    <h1>Seja bem vindo(a)!</h1>
     <Hello/>
     <Info/>
   </div>
