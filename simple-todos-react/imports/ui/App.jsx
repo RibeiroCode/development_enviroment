@@ -13,7 +13,5 @@ export const App = () => (
     <ul>
       { tasks.map(task => <Task key={ task._id } task={ task }/>) }
     </ul>
-    <Hello/>
-    <Info/>
   </div>
 );
