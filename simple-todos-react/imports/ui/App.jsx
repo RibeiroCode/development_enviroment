@@ -1,8 +1,8 @@
 import React from 'react';
 
 const tasks = [
-  {_id: 1, text: ''},
-  {_id: 2, text: 'Second Task'},
+  {_id: 1, text: 'Primeira Tarefa'},
+  {_id: 2, text: 'Segunda Tarefa'},
   {_id: 3, text: 'Third Task'},
 ];
  
