@@ -7,10 +7,10 @@ Meteor.startup(() => {
   if (TasksCollection.find().count() === 0) {
     [
       'Primeira Tarefa',
-      'Second Tarefa',
-      'Third Tarefa',
-      'Fourth Tarefa',
-      'Fifth Tarefa',
+      'Segunda Tarefa',
+      'Terceira Tarefa',
+      'Quarta Tarefa',
+      'Quinta Tarefa',
       'Sixth Tarefa',
       'Seventh Tarefa'
     ].forEach(insertTask)
