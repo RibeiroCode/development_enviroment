@@ -11,8 +11,8 @@ Meteor.startup(() => {
       'Terceira Tarefa',
       'Quarta Tarefa',
       'Quinta Tarefa',
-      'Sixth Tarefa',
-      'Seventh Tarefa'
+      'Sexta Tarefa',
+      'Setima Tarefa'
     ].forEach(insertTask)
   }
 });
